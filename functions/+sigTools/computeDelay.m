@@ -19,7 +19,7 @@ end
 pattern = [pattern;zeros(nPnts - numel(pattern),1)];
 
 % cross-correlation
-xc = sigTools.batch_xcorr(signal,pattern);
+xc = sigTools.xcorrFFT(signal,pattern);
 if useAbs
     [mxc,im] = max(abs(xc),[],1);
 else
