@@ -1,5 +1,6 @@
 # sigTools
 Octave Etard (octave.etard11@imperial.ac.uk)
+
 Collection of Matlab signal processing helper functions.
 
 ## Quick start
